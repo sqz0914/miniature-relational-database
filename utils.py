@@ -1,13 +1,14 @@
 import re
+from table import Table
 
 '''
-Method which writes the result of an operation to the file "qs452_AllOperations.txt"
+Method which writes the result of an operation to the file "AllOperations.txt"
 Parameters: op_name - name of the operation
             result_table_name - name of the result table created by the operation
             result_table - table containing the operation result
 '''
 def output_operation_result(op_name, result_table_name, result_table):
-    with open("qs452_AllOperations.txt", "a") as f:
+    with open("AllOperations.txt", "a") as f:
         f.write("Table Name: {0}    Operation Performed: {1}\n\n".format(result_table_name, op_name))
         f.write(str(result_table))
         f.write("\n\n\n")

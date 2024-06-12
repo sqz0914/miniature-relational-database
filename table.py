@@ -450,7 +450,7 @@ class Table:
     Result: output the current table to the given file
     '''
     def output_to_file(self,file_name):
-        with open("qs452_{0}.txt".format(file_name), 'w') as f:
+        with open("{0}.txt".format(file_name), 'w') as f:
             f.write(str(self))
     '''
     Method that performs Hash operation on the current table
