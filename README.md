@@ -97,7 +97,7 @@ python main.py
 - **project**: Projects specific columns from a table.
 - **join**: Joins two tables based on a condition.
 - **sum**: Calculates the sum of a column.
-- - **sumgroup**: Calculates the sum of a column grouped by other columns.
+- **sumgroup**: Calculates the sum of a column grouped by other columns.
 - **avg**: Calculates the average of a column.
 - **avggroup**: Calculates the average of a column grouped by other columns.
 - **count**: Counts the number of rows in a table.
